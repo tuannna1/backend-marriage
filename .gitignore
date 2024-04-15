@@ -6,7 +6,7 @@
 /node_modules
 /shared/*.key
 /vendor
-.env
+#.env
 npm-debug.log
 yarn-error.log
 .idea
