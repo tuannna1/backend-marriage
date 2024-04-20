@@ -2,21 +2,21 @@
 <?php
 
 /**
- * Import semua class yang digunakan dalam framework ini.
- * Tenang, ini telah dilakukan secara otomatis oleh composer.
- *
- * Sekarang, tinggal menjalankan aplikasi ini saja.
- */
+  * Import all classes used in this framework.
+  * Don't worry, this has been done automatically by composer.
+  *
+  * Now, just run this application.
+  */
 
 require_once __DIR__ . '/vendor/autoload.php';
 
 /**
- * Okey, sekarang memanggil fungsi console secara static pada kernel.
- * Bentar, fungsi console ini perlu app kernel sebagai penghubung aplikasi.
- * Setelah itu, hanya perlu menjalankannya saja.
- *
- * Ini sangat simple.
- */
+  * OK, now call the console function statically in the kernel.
+  * Wait a minute, this console function requires a kernel app as an application connector.
+  * After that, just need to run it.
+  *
+  * This is very simple.
+  */
 
 exit(\Core\Kernel\Kernel::cli(
     new \App\Kernel()
